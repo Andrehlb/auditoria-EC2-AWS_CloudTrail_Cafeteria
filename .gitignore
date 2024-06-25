@@ -1,0 +1,26 @@
+# Ignorando arquivos temporários e de cache
+*.tmp
+*~
+##*
+.DS_Store
+cache/*
+tmp/*
+
+# Ignorando arquivos de configuração local
+.vscode/* (exceto .vscode/settings.json e .vscode/extensions.json)
+.idea/*
+.env
+.local/share/Trash/files/*
+
+# Ignorando arquivos específicos do sistema operacional
+Thumbs.db
+desktop.ini
+
+# Ignorando arquivos gerados automaticamente
+node_modules/*
+dist/*
+coverage/*
+
+# Ignorando registros e logs
+logs/*
+.git/logs/*
